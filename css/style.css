@@ -113,3 +113,43 @@ header > div > menu > ul > li:hover {
     padding: 30px;
     margin-top: 10px;
 }
+
+
+/* PROJECTS */
+
+#projects-div-id {
+    background-color: rgb(188, 158, 236);
+    height: 100vh;
+    text-align: center;
+}
+
+#projects-div-id > h2 {
+    padding: 10px;
+}
+
+#projects-p-id {
+    padding: 10px;
+}
+
+.img-portfolio-class {
+    max-height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.img-portfolio-class:hover {
+    
+}
+
+
+/* CONTACT */
+
+#contact-div-id {
+    background-color: rgb(207, 183, 247);
+    height: 100vh;
+}
+
+#contact-div-id > h2 {
+    text-align: center;
+    padding: 10px;
+}
