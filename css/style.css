@@ -135,6 +135,8 @@ header > div > menu > ul > li:hover {
     max-height: 150px;
     margin-top: 10px;
     margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.274);
 }
 
 .img-portfolio-class:hover {
