@@ -156,3 +156,16 @@ header > div > menu > ul > li:hover {
     text-align: center;
     padding: 10px;
 }
+
+#contact-div-id > p {
+    margin: 20px;
+}
+
+#icon-p-id {
+    text-align: center;
+}
+
+.icon-img-class {
+    max-height: 100px;
+    padding: 20px;
+}
