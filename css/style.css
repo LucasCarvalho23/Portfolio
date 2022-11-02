@@ -67,7 +67,7 @@ header > div > menu > ul > li:hover {
 /* HOME */
 
 #home-id {
-    background-color: rgb(180, 126, 231);
+    background-color: rgb(188, 158, 236);
     font-size: 3em;
     height: 336px;
     text-align: center;
@@ -75,7 +75,7 @@ header > div > menu > ul > li:hover {
 }
 
 #slice-content-id {
-    background-color: rgb(180, 126, 231);
+    background-color: rgb(188, 158, 236);
     font-size: 1em;
     height: 100px;
     text-align: center;
