@@ -129,6 +129,7 @@ header > div > menu > ul > li:hover {
 
 #projects-p-id {
     padding: 10px;
+    font-weight: bold;
 }
 
 .img-portfolio-class {
