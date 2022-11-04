@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 header {
@@ -63,6 +64,11 @@ header > div > menu > ul > li:hover {
     transition: background .4s;
 }
 
+header > div > menu > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* HOME */
 
@@ -85,6 +91,7 @@ header > div > menu > ul > li:hover {
 #arrow-img-id {
     max-height: 50px;
     padding: 10px;
+    cursor: pointer;
 }
 
 
@@ -168,4 +175,16 @@ header > div > menu > ul > li:hover {
 .icon-img-class {
     max-height: 100px;
     padding: 20px;
+}
+
+#arrow-div-id {
+    text-align: right;
+    margin-right: 70px;
+}
+
+#arrow-up-id {
+    position: fixed;
+    bottom: 0;
+    max-height: 50px;
+    opacity: 25%;
 }

@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <header>
+    <header id = "header-id">
 
         <picture>
             <img src = "./image/programmer-img-header.png" alt = "img-header">
@@ -25,9 +25,9 @@
                 </div>
                 <menu id = "menu-item-id">
                 <ul>
-                    <li >About Me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href = "#aboutme-div-id">About Me</a></li>
+                    <li><a href = "#projects-div-id">Projects</a></li>
+                    <li><a href = "#contact-div-id">Contact</a></li>
                 </ul>
             </div>
 
@@ -49,7 +49,7 @@
                 Swipe down to view site content
             </p>
             <p>
-                <img src = "./image/arrow-black.png" alt = "arrow-img" id = "arrow-img-id">
+                <a href = "#aboutme-div-id"><img src = "./image/arrow-black.png" alt = "arrow-img" id = "arrow-img-id"></a>
             </p>
         </div>
 
@@ -139,6 +139,10 @@
         </div>
 
     </main>
+
+    <div id = "arrow-div-id">
+        <a href = "#header-id"><img src = "./image/arrow-up.png" alt = "arrow-up" id = "arrow-up-id"></a>
+    </div>
 
 
     <!-- JAVASCRIPT -->
