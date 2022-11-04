@@ -11,7 +11,17 @@ class Portfolio {
 
         this.effectHeader(this.homeP)
 
-        //this.menuItem.style.display = 'none'
+        this.width = window.innerWidth
+        document.documentElement.clientWidth
+        document.body.clientWidth
+        
+        
+        if (this.width < 768) {
+            this.menuItem.style.display = 'none'
+        } else {
+            this.menuItem.style.display = 'block'
+        }
+
         this.menuIcon.addEventListener ("click", () => this.lilMenu())
 
     }
