@@ -1,0 +1,149 @@
+/* Others Medias */
+
+/* 
+    Typical Device Breakpoints:
+        Small Screen: Up to 600px
+        Phone: 600px to 768px
+        Tablet: 768px to 992px
+        Desktop: 992px to 1200px
+        Big Screen: over 1200px
+*/
+
+@charset "UTF-8";
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .container-menu {
+        display: none;
+    }
+
+    header > picture > img {
+        width: 240px;
+    }
+
+    
+    /* DESKTOP MENU */
+
+    header > menu {
+        display: block;
+    }
+
+    header > div > menu > ul {
+        background-color: rgb(80, 28, 129);
+    }
+
+    header > div > menu > ul > li {   
+        display: inline-block;
+        border: none;
+    }
+
+    
+    /* HOME */
+
+    #home-id {
+        padding: 50px;
+    }
+
+
+    /* PROJECTS */
+
+    #projects-div-id > h2 {
+        padding: 20px;
+    }
+
+    #projects-p-id {
+        padding: 20px;
+    }
+
+    .img-portfolio-class {
+        max-height: 200px;
+    }
+
+
+    /* CONTACT */
+
+    #contact-div-id > h2 {
+        padding: 20px;
+    }
+
+}
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+
+    .container-menu {
+        display: none;
+    }
+
+    
+    header > picture > img {
+        width: 250px;
+    }
+
+    
+    /* DESKTOP MENU */
+
+    header > menu {
+        display: block;
+    }
+
+    header > div > menu > ul {
+        background-color: rgb(80, 28, 129);
+    }
+
+    header > div > menu > ul > li {   
+        display: inline-block;
+        border: none;
+    }
+
+
+    /* HOME */
+
+    #home-id {
+        padding: 100px;
+    }
+
+
+    /* ABOUT ME */
+
+    #aboutme-div-id > h2 {
+        padding: 30px;
+    }
+
+    .aboutme-p-class {
+        line-height: 2em;
+    }
+
+
+    /* PROJECTS */
+
+    #projects-div-id > h2 {
+        padding: 10px;
+    }
+
+    #projects-p-id {
+        padding: 10px;
+    }
+
+    .img-portfolio-class {
+        max-height: 250px;
+    }
+
+
+    /* CONTACT */
+
+    #contact-div-id > h2 {
+        padding: 30px;
+    }
+
+    .icon-img-class {
+        max-height: 180px;
+        padding: 50px;
+    }
+
+
+}

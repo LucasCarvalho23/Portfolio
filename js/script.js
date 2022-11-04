@@ -11,7 +11,7 @@ class Portfolio {
 
         this.effectHeader(this.homeP)
 
-        this.menuItem.style.display = 'none'
+        //this.menuItem.style.display = 'none'
         this.menuIcon.addEventListener ("click", () => this.lilMenu())
 
     }
